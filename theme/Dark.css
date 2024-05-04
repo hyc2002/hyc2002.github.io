@@ -1,0 +1,81 @@
+/* Dark Markdown Theme */  
+  
+/* 整体样式 */  
+body {  
+  background-color: #222; /* 深灰色背景 */  
+  color: #ddd; /* 浅灰色文本 */  
+  font-family: 'Arial', sans-serif; /* 使用无衬线字体 */  
+  margin: 0;  
+  padding: 20px;  
+  line-height: 1.6;  
+}  
+  
+/* 标题样式 */  
+h1, h2, h3, h4, h5, h6 {  
+  color: #fff; /* 白色标题 */  
+}  
+  
+/* 段落样式 */  
+p {  
+  margin-bottom: 1em;  
+}  
+  
+/* 链接样式 */  
+a {  
+  color: #87CEEB; /* 天蓝色链接 */  
+  text-decoration: none;  
+  transition: color 0.3s ease;  
+}  
+  
+a:hover {  
+  color: #ADD8E6; /* 鼠标悬停时链接颜色变浅 */  
+}  
+  
+/* 列表样式 */  
+ul, ol {  
+  list-style-position: inside;  
+  padding-left: 0;  
+}  
+  
+/* 表格样式 */  
+table {  
+  width: 100%;  
+  border-collapse: collapse;  
+}  
+  
+th, td {  
+  border: 1px solid #555; /* 灰色边框 */  
+  padding: 8px;  
+  text-align: left;  
+}  
+  
+th {  
+  background-color: #333; /* 深色表头背景 */  
+}  
+  
+/* 代码块样式 */  
+code, pre {  
+  background-color: #333; /* 深色代码块背景 */  
+  color: #f0f0f0; /* 亮灰色代码文本 */  
+  padding: 5px;  
+  border-radius: 3px;  
+  overflow: auto; /* 自动滚动条 */  
+}  
+  
+/* 引用块样式 */  
+blockquote {  
+  background-color: #333; /* 深色引用块背景 */  
+  color: #ccc; /* 中灰色引用文本 */  
+  padding: 10px;  
+  border-left: 4px solid #666; /* 左侧灰色边框 */  
+  margin-left: 0;  
+  margin-right: 0;  
+}  
+  
+/* 水平线样式 */  
+hr {  
+  border: none;  
+  height: 1px;  
+  background: #555; /* 灰色水平线 */  
+  margin: 20px 0;  
+}

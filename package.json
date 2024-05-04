@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=3000 --host=localhost --no-browser"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bibtex-parse": "^2.1.0",
+    "chalk": "^2.3.0",
+    "inquirer": "^7.2.16",
+    "live-server": "^1.2.2",
+    "marked": "^12.0.1"
+  }
+}
